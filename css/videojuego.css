@@ -1,0 +1,27 @@
+main {
+text-align: center;
+}
+
+#contenedorVideojuego {
+display: inline-block;
+margin: 50px;
+width: 600px;
+padding: 20px 50px;
+background: rgba(200, 200, 200, 0.7);
+text-align: center;
+box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 1024px)
+{
+    #contenedorVideojuego
+    {
+        margin: 5%;
+        padding: 2% 5%;
+        width: 80%;
+    }
+
+    canvas
+    {
+        width: 80%;
+    }
+}
